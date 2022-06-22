@@ -1,0 +1,6 @@
+.list-group {
+  border-bottom: 1px solid #dfdfdf;
+}
+.list-group:last-child {
+  border-bottom: none;
+}

@@ -7,7 +7,9 @@ import { useSelector } from 'react-redux';
 function Products() {
   const { categoryId } = useParams();
 
+
   const products = useSelector((state) => state.products);
+  console.log(products)
 
   const filteredProducts = products.filter((product) => {
     if (!categoryId) return true;
